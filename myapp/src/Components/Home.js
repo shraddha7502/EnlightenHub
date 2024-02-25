@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import team from './team.png'
 const Home = () => {
   return (
     <main className="hero container">
@@ -25,7 +26,7 @@ const Home = () => {
       </div>
     </div>
     <div className="hero-image">
-      <img src="assets/team.png" alt="team" />
+      <img src={team} alt="team" />
     </div>
   </main>
   )
