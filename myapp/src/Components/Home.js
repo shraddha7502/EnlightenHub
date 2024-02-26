@@ -1,5 +1,7 @@
 import React from 'react'
 import './Home.css'
+import books from  "../../assets/books.png";
+import girl from  "../../assets/girl_wth_laptop.png";
 const Home = () => {
   return (
     <main className="hero container">
@@ -19,8 +21,8 @@ const Home = () => {
         <p>Also Available On</p>
 
         <div className="brand-icons">
-          <img src="/assets/girl_with_laptop.png" alt="girl" />
-          <img src="/assets/books.png" alt="books" />
+          <img src={girl} alt="girl" />
+          <img src={books} alt="books"  className='iim' />
         </div>
       </div>
     </div>
