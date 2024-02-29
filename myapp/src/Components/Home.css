@@ -44,6 +44,8 @@
   .hero-btn {
     display: flex;
     gap: 40px;
+    color: aliceblue;
+    background-color:#343a40 ;
   }
   .hero-btn button {
     font-size: 24px;

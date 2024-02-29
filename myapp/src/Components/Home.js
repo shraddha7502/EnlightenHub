@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import book from '../assets/books.png';
 import girl from '../assets/girl_with_laptop.png';
+import team from '../assets/team.png';
 const Home = () => {
   return (
     <main className="hero container">
@@ -27,7 +28,7 @@ const Home = () => {
       </div>
     </div>
     <div className="hero-image">
-      <img src="assets/team.png" alt="team" />
+      <img src={team} alt="team" className='iim' />
     </div>
   </main>
   )
