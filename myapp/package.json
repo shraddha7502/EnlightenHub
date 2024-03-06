@@ -22,10 +22,12 @@
     "react-router-dom": "^6.22.0",
     "react-scripts": "^5.0.1",
     "reactstrap": "^9.2.2",
+    "vite": "^5.1.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+
+    "start": "vite",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -47,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
   }
 }

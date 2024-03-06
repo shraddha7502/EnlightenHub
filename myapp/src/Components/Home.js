@@ -1,11 +1,11 @@
 import React from 'react'
 import './Home.css'
-<<<<<<< HEAD
+// <<<<<<< HEAD
 import team from './team.png'
-=======
+// =======
 import book from '../assets/books.png';
 import girl from '../assets/girl_with_laptop.png';
->>>>>>> d87df27f3b8bca3193714dbc1f59e75f515db89c
+// >>>>>>> d87df27f3b8bca3193714dbc1f59e75f515db89c
 const Home = () => {
   return (
     <main className="hero container">
