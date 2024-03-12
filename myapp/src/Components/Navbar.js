@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { Container } from "reactstrap";
 import "./Navbar.css";
 
+
 const navLinks = [
   {
     display: "Home",
@@ -23,6 +24,10 @@ const navLinks = [
   {
     display: "Blog",
     url: "#",
+  },
+  {
+    display: "SignIn",
+    url: "./SignIn.js",
   },
 ];
 

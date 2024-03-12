@@ -1,14 +1,15 @@
 import React from 'react'
 import './Home.css'
 // <<<<<<< HEAD
-import team from './team.png'
+import team from '../assets/team.png'
 // =======
 import book from '../assets/books.png';
 import girl from '../assets/girl_with_laptop.png';
-// >>>>>>> d87df27f3b8bca3193714dbc1f59e75f515db89c
+import child from '../assets/child.png.png'
+
 const Home = () => {
   return (
-    <main className="hero container">
+    <main className="hero container1">
     <div className="hero-content">
       <h2>Unleash Your Brainpower-<br/>
        Where Brilliance Meets Badassery! 🚀</h2>
@@ -17,8 +18,8 @@ const Home = () => {
       </h6>
 
       <div className="hero-btn">
-        <button className='btn-primary'>Get started </button>
-        <button className="secondary-btn">view courses</button>
+        <button className='btn-primary initial'>Get started </button>
+        <button className="secondary-btn course">view courses</button>
       </div>
 
       <div className="shopping">
@@ -27,12 +28,16 @@ const Home = () => {
         <div className="brand-icons">
           <img src={girl} alt="girl" className='iim' />
           <img src={book} alt="books"  className='iim' />
+          <img src={child} alt="books"  className='iim' />
         </div>
       </div>
-    </div>
+ </div>
     <div className="hero-image">
-      <img src={team} alt="team" />
+      <img src={team } alt="team" />
     </div>
+
+
+    
   </main>
   )
 }
