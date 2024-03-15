@@ -1,8 +1,8 @@
 import React from 'react'
 import './Home.css'
-// <<<<<<< HEAD
+
 import team from '../assets/team.png'
-// =======
+
 import book from '../assets/books.png';
 import girl from '../assets/girl_with_laptop.png';
 import child from '../assets/child.png.png'
@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <main className="hero container1">
     <div className="hero-content">
-      <h2>Unleash Your Brainpower-<br/>
+      <h2 >Unleash Your Brainpower-<br/>
        Where Brilliance Meets Badassery! 🚀</h2>
       <h6>
       Buckle up, legends! EnlightenHub is not your grandma's learning platform – <br/>it's a wild ride to genius town. We're not here to bore you with textbooks; <br/>we're here to ignite your mind and make learning a freakin' adventure!
@@ -33,7 +33,11 @@ const Home = () => {
       </div>
  </div>
     <div className="hero-image">
+
       <img src={team } alt="team" />
+
+      
+
     </div>
 
 

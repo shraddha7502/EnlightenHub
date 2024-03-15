@@ -18,11 +18,11 @@ const navLinks = [
     url: "#",
   },
   {
-    display: "Pages",
+    display: "SignUp",
     url: "#",
   },
   {
-    display: "Blog",
+    display: "LogIn",
     url: "#",
   },
   {
