@@ -9,8 +9,13 @@ const App = () => {
     <div>
       <Navbar/>
       <Home/>
-      <Card />
-      <Card/>
+      <Card title="Python" image="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=600" description="fyuwgfwhfewhfyuewhiu"/>
+      <Card title="Python" image="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=600" description="fyuwgfwhfewhfyuewhiu"/>
+      <Card title="Python" image="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=600" description="fyuwgfwhfewhfyuewhiu"/>
+      <Card title="Python" image="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=600" description="fyuwgfwhfewhfyuewhiu"/>
+      <Card title="Python" image="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=600" description="fyuwgfwhfewhfyuewhiu"/>
+      <Card title="Python" image="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=600" description="fyuwgfwhfewhfyuewhiu"/>
+    
             
     </div>
   )
