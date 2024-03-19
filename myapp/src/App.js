@@ -1,14 +1,63 @@
-import React from 'react'
+
+import React, { Component } from "react";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link,
+} from "react-router-dom";
+// import React from 'react'
 import Navbar from './Components/Navbar'
 import  Home from './Components/Home'
 import Card from './Components/Card'
+import SignIn from './Components/SignIn'
+// import Content from "./Components/Content";
+// import SignUp from "./Components/SignUp"
+ import ContactUs from "./Components/ContactUs";
 
 
-const App = () => {
-  return (
+
+
+class App extends Component {
+      render() {
+            return(
     <div>
+      <Router>
+                <div className="App">
+                    <ul className="App-header">
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/signin">
+                                SignIn
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/contact">
+                                Contact Us
+                            </Link>
+                        </li>
+                    </ul>
+                    <Routes>
+                        <Route
+                            path="/"
+                            element={<Home />}
+                        ></Route>
+                        <Route
+                            path="/signin"
+                            element={<SignIn />}
+                        ></Route>
+                        <Route
+                            path="/contact"
+                            element={<ContactUs />}
+                        ></Route>
+                    </Routes>
+                </div>
+                
       <Navbar/>
-      <Home/>
+       <Home/>
+     
       <Card title="Python" image="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=600" description="
 Elevate your programming skills with our Python course, designed to empower you with practical expertise and real-world applications"/>
       
@@ -31,9 +80,13 @@ Harness the power of AI to amplify efficiency, drive innovation, and unlock new 
       <Card title="Machine Learning" image="https://media.istockphoto.com/id/1387900612/photo/automation-data-analytic-with-robot-and-digital-visualization-for-big-data-scientist.jpg?b=1&s=612x612&w=0&k=20&c=AdtAH8A9d_UhcAJyDn6YR7XiDlf7Fz0zWRCmqQ2lSFY=" description="
 Transforming industries with data-driven insights, Machine Learning paves the way for innovation and optimization"/>
     
-            
+
+    
+
+     
+    </Router>
     </div>
   )
 }
-
-export default App
+}
+export default App;

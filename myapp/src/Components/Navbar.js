@@ -26,6 +26,10 @@ const navLinks = [
     url: "#",
   },
   {
+    display: "ContactUs",
+    url: "./ContactUs.js",
+  },
+  {
     display: "SignIn",
     url: "./SignIn.js",
   },
