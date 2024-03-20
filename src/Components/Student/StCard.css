@@ -1,0 +1,30 @@
+.card {
+    max-width: 275px;
+    /* max-width: 300px; */
+    max-height: 180px;
+    text-align: center;
+    float:left;
+    transition: transform 0.3s; /* Add transition for smooth zoom effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    border-radius: 9px; /* Add border radius for rounded corners */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Zoom in effect on hover */
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #571616;
+  }
+  
