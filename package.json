@@ -8,6 +8,8 @@
     "@expo-google-fonts/josefin-sans": "^0.2.3",
     "@fontsource/roboto": "^5.0.12",
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
     "@mui/icons-material": "^5.15.14",
     "@mui/material": "^5.15.14",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",

@@ -72,7 +72,7 @@ export default function Footer() {
                                 className="mr-3 h-16"
                                 alt="Logo"
                             /> */}
-                             <div className="logo">
+                             <div className="logo text-white">
             <h2 className=" d-flex align-items-center gap-1">
               <i className="ri-pantone-line"></i> EnlightenHub.
             </h2>
